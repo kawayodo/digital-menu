@@ -842,3 +842,29 @@ body.sheet-open { overflow: hidden; }
   padding: 4px 10px;
   font-size: 17px;
 }
+
+/* 店員画面の一番上：お客さまの言語で「この画面を店員に見せる」「注文はまだ送信されていない」 */
+.show-staff-banner {
+  background: #fff4d6;
+  border: 3px solid #e0a800;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.show-staff-banner-title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.35;
+  color: #5a3a00;
+}
+
+.show-staff-banner-text {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: var(--red);
+}
